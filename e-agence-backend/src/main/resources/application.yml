@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/eagence_ngser
+    username: root
+    password: example
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgresSQLDialect
+    show-sql: true
+#server.servlet.context-path=/api
